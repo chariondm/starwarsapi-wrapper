@@ -72,9 +72,13 @@ describe('SWAPI Wrapper', () => {
     });
 
     it('should call fetch with the correct URL', () => {
-      const planets = getPlanets();
+      const planets1 = getPlanets();
       expect(fetchedStub)
         .to.have.been.calledWith('https://swapi.co/api/planets/');
+
+      const planets2 = getPlanets('?page=3');
+      expect(fetchedStub)
+          .to.have.been.calledWith('https://swapi.co/api/planets/');
     });
 
     it('should return the correct data from Promise', () => {
