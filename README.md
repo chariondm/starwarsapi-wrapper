@@ -57,6 +57,10 @@ Após isso a biblioteca estará disponível para o Global como `swApiWrapper`. C
 const planet = swApiWrapper.getPlanetRandom();
 ```
 
+### Exemplo de utilização
+
+Você pode encontrar um exemplo de utilização em [https://chariondm.github.io/](https://chariondm.github.io/).
+
 ## Métodos
 
 > Segue abaixo os métodos disponível na biblioteca.
