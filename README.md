@@ -1,5 +1,7 @@
 # Star Wars API Wrapper
 
+[![Build Status](https://travis-ci.org/chariondm/starwarsapi-wrapper.svg?branch=master)](https://travis-ci.org/chariondm/starwarsapi-wrapper)
+
 Um 'wrapper' para trabalhar com [Star Wars API](https://swapi.co/).
 
 ## Browser Support
