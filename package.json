@@ -2,7 +2,7 @@
   "name": "swapi-wrapper",
   "version": "1.0.0",
   "description": "Biblioteca para facilitar o acesso a SWAPI.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "clear": "rimraf lib dist",
     "build": "npm run clear && babel --out-dir lib src",
@@ -17,6 +17,10 @@
     "test:coverage": "nyc npm test",
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "nyc": {
     "reporter": [
       "text",
