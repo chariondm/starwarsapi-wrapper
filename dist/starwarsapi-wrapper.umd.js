@@ -151,4 +151,4 @@ var getRandomInt = exports.getRandomInt = function getRandomInt(min, max) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=swapi-wrapper.umd.js.map
+//# sourceMappingURL=starwarsapi-wrapper.umd.js.map

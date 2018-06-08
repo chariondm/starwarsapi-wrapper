@@ -1,14 +1,14 @@
 {
-  "name": "swapi-wrapper",
+  "name": "starwarsapi-wrapper",
   "version": "1.0.0",
-  "description": "Biblioteca para facilitar o acesso a SWAPI.",
+  "description": "Biblioteca para facilitar o acesso a starwarsapi.",
   "main": "lib/index.js",
   "scripts": {
     "clear": "rimraf lib dist",
     "build": "npm run clear && babel --out-dir lib src",
     "build:watch": "npm run build -- --watch",
-    "build:umd": "./node_modules/.bin/webpack --output-filename swapi-wrapper.umd.js",
-    "build:umd:min": "./node_modules/.bin/webpack --output-filename swapi-wrapper.umd.min.js -p",
+    "build:umd": "./node_modules/.bin/webpack --output-filename starwarsapi-wrapper.umd.js",
+    "build:umd:min": "./node_modules/.bin/webpack --output-filename starwarsapi-wrapper.umd.min.js -p",
     "build:all": "npm run build && npm run build:umd && npm run build:umd:min",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint",

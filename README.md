@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/chariondm/starwarsapi-wrapper.svg?branch=master)](https://travis-ci.org/chariondm/starwarsapi-wrapper)
 [![Coverage Status](https://coveralls.io/repos/github/chariondm/starwarsapi-wrapper/badge.svg?branch=master)](https://coveralls.io/github/chariondm/starwarsapi-wrapper?branch=master)
 
-Um 'wrapper' para trabalhar com [Star Wars API](https://swapi.co/).
+Um 'wrapper' para trabalhar com [Star Wars API](https://starwarsapi.co/).
 
 ## Browser Support
 
@@ -15,12 +15,12 @@ Esta biblioteca depende do [Fetch API](https://fetch.spec.whatwg.org/). E esta A
 
 ## Depêndencias
 
-Esta biblioteca depende do [fetch](https://fetch.spec.whatwg.org/) para realizar requests para [The Star Wars API](https://swapi.co/). Para ambientes que não suporte o fetch, você deverá utilizar o [polyfill](https://github.com/github/fetch) para browser ou o [polyfill](https://github.com/bitinn/node-fetch) para Node.
+Esta biblioteca depende do [fetch](https://fetch.spec.whatwg.org/) para realizar requests para [The Star Wars API](https://starwarsapi.co/). Para ambientes que não suporte o fetch, você deverá utilizar o [polyfill](https://github.com/github/fetch) para browser ou o [polyfill](https://github.com/bitinn/node-fetch) para Node.
 
 ## Instalação
 
 ```sh
-$ npm install swapi-wrapper --save
+$ npm install starwarsapi-wrapper --save
 ```
 
 ## Como usar
@@ -29,32 +29,32 @@ $ npm install swapi-wrapper --save
 
 ```js
 // para importar um método especifico
-import { method } from 'swapi-wrapper';
+import { method } from 'starwarsapi-wrapper';
 
 // to import everything
-import * as swApiWrapper from 'swapi-wrapper';
+import * as starwarsapiWrapper from 'starwarsapi-wrapper';
 ```
 
 ### CommonJS
 
 ```js
-var swApiWrapper = require('swapi-wrapper');
+var starwarsapiWrapper = require('starwarsapi-wrapper');
 ```
 
 ### UMD nos Browsers
 
 ```html
 <!-- to import non-minified version -->
-<script src="swapi-wrapper.umd.js"></script>
+<script src="starwarsapi-wrapper.umd.js"></script>
 
 <!-- to import minified version -->
-<script src="swapi-wrapper.umd.min.js"></script>
+<script src="starwarsapi-wrapper.umd.min.js"></script>
 ```
 
-Após isso a biblioteca estará disponível para o Global como `swApiWrapper`. Conforme exemplo abaixo:
+Após isso a biblioteca estará disponível para o Global como `starwarsapiWrapper`. Conforme exemplo abaixo:
 
 ```js
-const planet = swApiWrapper.getPlanetRandom();
+const planet = starwarsapiWrapper.getPlanetRandom();
 ```
 
 ### Exemplo de utilização
@@ -67,7 +67,7 @@ Você pode encontrar um exemplo de utilização em [https://chariondm.github.io/
 
 ### getPlanet(id)
 
-> Obtem informações sobre um específico planeta de acordo com o id fornecido. Teste em [The Star Wars API](https://swapi.co/api/planets/1/).
+> Obtem informações sobre um específico planeta de acordo com o id fornecido. Teste em [The Star Wars API](https://starwarsapi.co/api/planets/1/).
 
 **Parâmetro(s)**
 
@@ -86,13 +86,13 @@ getPlanet(10)
 
 ### getPlanets(query)
 
-> Obtém informações sobre todos os planetas. Teste em [The Star Wars API](https://swapi.co/api/planets/1/).
+> Obtém informações sobre todos os planetas. Teste em [The Star Wars API](https://starwarsapi.co/api/planets/1/).
 
 **Parâmetro(s)**
 
 | Parametro | Tipo    | Domínio                                                            |
 |-----------|---------|--------------------------------------------------------------------|
-|`query`    |*string* | 'Ver em [The Star Wars API](https://swapi.co/documentation#search)'|
+|`query`    |*string* | 'Ver em [The Star Wars API](https://starwarsapi.co/documentation#search)'|
 
 
 **Exemplo**
@@ -106,7 +106,7 @@ getPlanets('?page=2')
 
 ### getPlanetRandom()
 
-> Obtem informações sobre um planeta aleatório. Teste em [The Star Wars API](https://swapi.co/api/planets/1/).
+> Obtem informações sobre um planeta aleatório. Teste em [The Star Wars API](https://starwarsapi.co/api/planets/1/).
 
 **Parâmetro(s)**
 
