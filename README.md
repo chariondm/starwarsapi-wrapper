@@ -32,13 +32,13 @@ $ npm install starwarsapi-wrapper --save
 import { method } from 'starwarsapi-wrapper';
 
 // to import everything
-import * as starwarsapiWrapper from 'starwarsapi-wrapper';
+import * as swApiWrapper from 'starwarsapi-wrapper';
 ```
 
 ### CommonJS
 
 ```js
-var starwarsapiWrapper = require('starwarsapi-wrapper');
+var swApiWrapper = require('starwarsapi-wrapper');
 ```
 
 ### UMD nos Browsers
@@ -51,10 +51,10 @@ var starwarsapiWrapper = require('starwarsapi-wrapper');
 <script src="starwarsapi-wrapper.umd.min.js"></script>
 ```
 
-Após isso a biblioteca estará disponível para o Global como `starwarsapiWrapper`. Conforme exemplo abaixo:
+Após isso a biblioteca estará disponível para o Global como `swApiWrapper`. Conforme exemplo abaixo:
 
 ```js
-const planet = starwarsapiWrapper.getPlanetRandom();
+const planet = swApiWrapper.getPlanetRandom();
 ```
 
 ### Exemplo de utilização
