@@ -38,7 +38,7 @@ import * as swApiWrapper from 'swapi-wrapper';
 var swApiWrapper = require('swapi-wrapper');
 ```
 
-### UMD in Browser
+### UMD nos Browsers
 
 ```html
 <!-- to import non-minified version -->
