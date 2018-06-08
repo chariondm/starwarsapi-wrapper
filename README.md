@@ -121,7 +121,7 @@ Por favor leia [CONTRIBUTING.md](CONTRIBUTING.md) para mais detalhe sobre nosso 
 
 ## Versioning
 
-Nós utilizamos o padrão [SemVer](http://semver.org/) para versionamento. Para as versões disponíveis, consulte o [tags on this repository](https://github.com/your/chariondm/starwarsapi-wrapper/chariondm/starwarsapi-wrapper/tags).
+Nós utilizamos o padrão [SemVer](http://semver.org/) para versionamento. Para as versões disponíveis, consulte o [tags on this repository](https://github.com/chariondm/starwarsapi-wrapper/tags).
 
 ## Autor
 
